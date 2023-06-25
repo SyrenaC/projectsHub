@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@1,300&family=Shadows+Into+Light&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body .wrap {
+  max-width: 100%;
+  margin: 0 auto;
+  font-family: Bebas Neue, sans-serif;
+  background-color: whitesmoke;
+}
+body .wrap .title h1 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 3px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+body .wrap .loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+body .wrap .loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .wrap .image-container {
+  margin: 10px 30%;
+}
+body .wrap .image-container img {
+  width: 100%;
+  margin-top: 5px;
+}/*# sourceMappingURL=style.css.map */
